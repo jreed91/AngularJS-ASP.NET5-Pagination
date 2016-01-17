@@ -1,0 +1,27 @@
+{
+  "name": "angularjs-aspnet-paginate",
+  "authors": [
+    "Jacob Reed <jreed91@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "angular": "1.4.8",
+      "bootstrap": "3.3.5",
+      "jquery": "2.1.4",
+      "jquery-validation": "1.14.0",
+      "jquery-validation-unobtrusive": "3.2.4",
+      "angularUtils-pagination": "*"
+  }
+}

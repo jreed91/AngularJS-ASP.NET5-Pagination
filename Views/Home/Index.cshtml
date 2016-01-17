@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div ng-app="paginationApp">
+    <div ng-controller="ItemsCtrl">  
+        <li dir-paginate="item in items | itemsPerPage: itemsPerPage" total-items="totalItems" current-page="pagination.current">
+            {{item.Name}}
+        </li>
+        <dir-pagination-controls on-page-change="pageChanged(newPageNumber)" template-url="lib/angularUtils-pagination/dirPagination.tpl.html"></dir-pagination-controls>
+    </div>
+</div>
